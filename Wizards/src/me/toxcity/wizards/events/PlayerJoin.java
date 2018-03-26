@@ -9,7 +9,6 @@ import org.bukkit.event.player.PlayerJoinEvent;
 
 import me.toxcity.wizards.Main;
 import me.toxcity.wizards.handlers.Game;
-import me.toxcity.wizards.managers.PlayerManager;
 import me.toxcity.wizards.threads.StartCountdown;
 import me.toxcity.wizards.utils.LocationsUtils;
 

@@ -12,18 +12,15 @@ import me.toxcity.wizards.utils.ChatUtils;
 public class StartCountdown extends BukkitRunnable {
 	
 	public static int timeUntilStart;
-	
-	public StartCountdown(Main main) {
-		// TODO Auto-generated constructor stub
-	}
 
+	Main plugin;
+	
+	public StartCountdown(Main pl) {
+		plugin = pl;
+	}
 	public void run() {
 
-		Main plugin;
-		
-		public StartCountdown(Main pl) {
-			plugin = pl;
-		}
+	
 			
 				
 			

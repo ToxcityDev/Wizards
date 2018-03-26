@@ -8,7 +8,7 @@ import org.bukkit.entity.Player;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.toxcity.wizards.commands.Start;
+
 import me.toxcity.wizards.events.AsyncPlayerPreLogic;
 import me.toxcity.wizards.events.Build;
 import me.toxcity.wizards.events.EntityDamageByEntity;
@@ -45,7 +45,7 @@ public class Main extends JavaPlugin {
 	}
 
 	private void registerCommands() {
-	     getCommand("start").setExecutor(new Start(this));
+	
 	}
 	private void registerEvents() {
 		PluginManager pm = Bukkit.getPluginManager();
