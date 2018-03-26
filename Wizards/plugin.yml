@@ -1,0 +1,6 @@
+name: Wizards
+version: 1.0
+main:  me.toxcity.wizards.Main
+commands:
+  start:
+      description: Force Starts Wizardz
